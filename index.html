@@ -526,11 +526,14 @@ body {
   <!-- ══ SCENE 8: Lyric player ══ -->
   <div class="scene" id="s8">
     <div class="lyric-block" id="lyricBlock">
-      <div class="lyric-line-item" id="l1"><span class="star-inline">✦</span>Anh hát cho em một bài</div>
-      <div class="lyric-line-item" id="l2">Dù cho anh trông hơi nghiêm trọng</div>
-      <div class="lyric-line-item" id="l3">Đừng cười anh, đừng có chê</div>
-      <div class="lyric-line-item highlight" id="l4">Bình thường anh ngân nga rất mượt</div>
-      <div class="lyric-line-item highlight" id="l5">Sao hôm nay lại run như thế</div>
+      <div class="lyric-line-item" id="l1"><span class="star-inline">✦</span>Chẳng một ai như anh, biết rõ gu nhạc em thích, tịch tình tang</div>
+      <div class="lyric-line-item" id="l2">Một bài ca trên tông yêu đương nhưng buồn miên man</div>
+      <div class="lyric-line-item" id="l3">Ngày hôm ấy nếu em có nhớ, hãy vặn volume thật vừa tai</div>
+      <div class="lyric-line-item highlight" id="l4">Ngồi ngay ngắn lắng nghe anh hát cho em một bài</div>
+      <div class="lyric-line-item highlight" id="l5">Dù cho anh trông hơi nghiêm trọng</div>
+      <div class="lyric-line-item highlight" id="l6">Đừng cười anh. Đừng có chê</div>
+      <div class="lyric-line-item highlight" id="l7">Bình thường anh ngân nga rất mượt</div>
+      <div class="lyric-line-item highlight" id="l8">Sao hôm nay lại run như thế?</div>
     </div>
     <div class="player-section">
       <div class="progress-track">
@@ -667,7 +670,7 @@ function initClock() {
     else setDigit('d1', nHH[1]);
 
     if (clockH === 0 && clockM === 0) {
-      document.getElementById('clockDate').textContent = 'ngày 25 tháng 7 năm 2025';
+      document.getElementById('clockDate').textContent = 'ngày 23 tháng 6 năm 2026';
       clearInterval(clockTick); clockRunning = false;
       // show notifications sequentially
       setTimeout(() => document.getElementById('n1').classList.add('show'), 400);
