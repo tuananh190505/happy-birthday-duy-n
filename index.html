@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday 🎂</title>
+<title>Happy Birthday Duyên xinh gái 🎂</title>
 <style>
 @font-face {
   font-family: 'CherryBomb';
@@ -405,7 +405,7 @@ body {
       <div class="digit-slot"><div class="digit-reel" id="d2"><span>5</span></div></div>
       <div class="digit-slot"><div class="digit-reel" id="d3"><span>5</span></div></div>
     </div>
-    <div class="clock-date" id="clockDate">ngày 24 tháng 7 năm 2025</div>
+    <div class="clock-date" id="clockDate">ngày 22 tháng 6 năm 2026</div>
 
     <div class="notif" id="n1">
       <div class="notif-icon">
@@ -416,8 +416,8 @@ body {
         </svg>
       </div>
       <div class="notif-body">
-        <div class="notif-app">MESSAGES <span class="notif-time">Now</span></div>
-        <div class="notif-msg">Happy Birthday to you !!!!</div>
+        <div class="notif-app">Dương Domic <span class="notif-time">Now</span></div>
+        <div class="notif-msg">Happy Birthday Duyên Xinh Gái !!!!</div>
       </div>
     </div>
     <div class="notif" id="n2">
@@ -429,8 +429,8 @@ body {
         </svg>
       </div>
       <div class="notif-body">
-        <div class="notif-app">MESSAGES <span class="notif-time">Now</span></div>
-        <div class="notif-msg">Sinh nhật vui vẻ nha 🎉</div>
+        <div class="notif-app">BẾN  <span class="notif-time">Now</span></div>
+        <div class="notif-msg">Chúc Duyên Tuổi mới vui vẻ🎉</div>
       </div>
     </div>
     <div class="notif" id="n3">
@@ -443,7 +443,7 @@ body {
       </div>
       <div class="notif-body">
         <div class="notif-app">MESSAGES <span class="notif-time">Now</span></div>
-        <div class="notif-msg">Em ăn cơm chưa? 😊</div>
+        <div class="notif-msg">Duyên ăn cơm chưa? 😊</div>
       </div>
     </div>
   </div>
@@ -455,7 +455,7 @@ body {
 
   <!-- ══ SCENE 3: Hãy vặc ══ -->
   <div class="scene" id="s3">
-    <div class="pill-text" id="pillText">Hãy vặc 💗</div>
+    <div class="pill-text" id="pillText">Happy Birthday 💗</div>
     <div class="s3-deco show" style="top:15%;left:12%;font-size:36px;">🌸</div>
     <div class="s3-deco" id="sd1" style="top:20%;right:20%;font-size:26px;color:#ff69b4;">✦</div>
     <div class="s3-deco" id="sd2" style="bottom:25%;left:18%;font-size:32px;color:#ff0088;">✦</div>
@@ -480,7 +480,7 @@ body {
           <div class="phone-header">
             <div class="phone-avatar">😺</div>
             <div>
-              <div class="phone-name">ABC K 🍏</div>
+              <div class="phone-name">KeoNho 🍏</div>
               <div class="phone-time">vừa xong · 🌍</div>
             </div>
             <div style="margin-left:auto;color:#fff;font-size:18px;">○</div>
@@ -506,16 +506,16 @@ body {
     <div class="fb-header" id="fbHeader">
       <div class="fb-avatar">😺</div>
       <div>
-        <div class="fb-name">ABC K 🍏</div>
+        <div class="fb-name">KeoNho 🍏</div>
         <div class="fb-meta">vừa xong · 🌍</div>
       </div>
     </div>
-    <div class="fb-text" id="fbText">Happy Birthday to me</div>
+    <div class="fb-text" id="fbText">Happy Birthday Duyên </div>
   </div>
 
   <!-- ══ SCENE 7: Photo grid ══ -->
   <div class="scene" id="s7">
-    <div class="s7-title" id="s7Title">Happy Birthday to me</div>
+    <div class="s7-title" id="s7Title">Happy Birthday Duyên Xinh Gái</div>
     <div class="photo-grid">
       <div class="photo-card" id="pc1">🐻</div>
       <div class="photo-card" id="pc2">🧸</div>
@@ -527,7 +527,7 @@ body {
   <div class="scene" id="s8">
     <div class="lyric-block" id="lyricBlock">
       <div class="lyric-line-item" id="l1"><span class="star-inline">✦</span>Anh hát cho em một bài</div>
-      <div class="lyric-line-item" id="l2">Dù cho anh trông hơn nghiêm trọng</div>
+      <div class="lyric-line-item" id="l2">Dù cho anh trông hơi nghiêm trọng</div>
       <div class="lyric-line-item" id="l3">Đừng cười anh, đừng có chê</div>
       <div class="lyric-line-item highlight" id="l4">Bình thường anh ngân nga rất mượt</div>
       <div class="lyric-line-item highlight" id="l5">Sao hôm nay lại run như thế</div>
@@ -641,7 +641,7 @@ function initClock() {
   clockRunning = true;
   clockH = 23; clockM = 55;
   renderClock(clockH, clockM);
-  document.getElementById('clockDate').textContent = 'ngày 24 tháng 7 năm 2025';
+  document.getElementById('clockDate').textContent = 'ngày 22 tháng 6 năm 2026';
   // hide notifs
   ['n1','n2','n3'].forEach(id => {
     document.getElementById(id).classList.remove('show');
@@ -773,7 +773,7 @@ function initS6() {
   setTimeout(() => {
     hdr.classList.add('show');
     // type text char by char
-    const msg = 'Happy Birthday to me 🎂';
+    const msg = 'Happy Birthday Mỹ Duyên 🎂';
     let i = 0;
     const typeTimer = setInterval(() => {
       txt.innerHTML += msg[i] === ' ' ? '&nbsp;' : msg[i];
